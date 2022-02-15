@@ -1,0 +1,19 @@
+{
+	"name": "newprojectgmc",
+	"version": "1.0.0",
+	"engines": {
+		"node": "14.16.x"
+	},
+	"scripts": {
+		"postinstall": "npm install --prefix back && npm install --prefix client",
+		"start": "npm start --prefix back"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.7.0",
+		"@emotion/styled": "^11.6.0",
+		"@mui/material": "^5.2.2",
+		"node-sass": "^6.0.1",
+		"react-notifications": "^1.7.2",
+		"react-weather": "^0.1.3"
+	}
+}

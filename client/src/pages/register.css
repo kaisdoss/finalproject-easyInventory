@@ -1,0 +1,103 @@
+.register{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 2rem;
+}
+.nv-membre{
+    color: #494949;
+    font-size: 2.2rem;
+    font-weight:600;
+    
+}
+.underline{
+    background-color: var(--icon-color);
+    width: 22rem;
+    margin-top: 5px;
+    height: 2px;
+}
+/* .grid-form{
+    margin-top: 4rem;
+} */
+.form-register{
+    margin-top: 2rem;
+    margin-right: 5rem;
+    background-color: #FEE194;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+
+input{
+    height: 4rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: #494949;
+}
+.title{
+    color: #494949;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.registerButton{
+    display: block;
+    margin: 4rem auto 0 auto;
+    border-radius: 10px;
+    width: 50%;
+    height: 4rem;
+    background-color: var(--color-Orange-dark);
+    font-size:1.7rem;
+    color: var(--text-Title);
+    font-weight: bold;
+}
+
+
+.taswira{
+    display: flex;
+    flex-direction: column;
+}
+
+.register-img{
+            transform: rotate(-18deg);
+            width: 80%;
+            display: block;
+            margin: auto auto auto 0;
+}
+
+.my-profil{
+    display: flex;
+    flex-direction: column;
+    width: 8%;
+}
+.fa-user{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #577BFA;
+    margin-bottom: 0.5rem;
+}
+
+.form-profile{
+    margin-top: 2rem;
+    /* margin-right: 5rem; */
+    background-color: #FEE194;
+    padding: 2rem;
+    border-radius: 20px;
+}
+.grid-flex{
+    display: grid;
+    grid-template-columns: 12rem 45rem
+}
+
+.background-profile{
+    width: 100%;
+    height: 25rem;
+    background-image: url(../assest/images/login1.png);
+    background-size: cover;
+   display: flex;
+   align-items: center;
+   margin-left: 3rem;
+}
+.img-profil{
+    margin-right: 2rem;
+}

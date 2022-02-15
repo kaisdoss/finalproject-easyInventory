@@ -1,0 +1,7 @@
+use('TestMyProject');
+
+// db.invoices.findOne({ _id: ObjectId('6084454ea05a4f359450fc26') })
+
+// prodinfact = db.products.findOne({ _id: ObjectId('6082263654ce6f25f4ec1ce4') });
+
+db.invoices.find({ _id: { $in: ['6082263654ce6f25f4ec1ce4'] } });

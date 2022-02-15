@@ -1,0 +1,28 @@
+.Product-container {
+  display: flex;
+}
+.enStock{
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+}
+.nonStock{
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.removeIcon, .addIcon{
+  color: #b3b9bf;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+
+.btns{
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem 0;
+}

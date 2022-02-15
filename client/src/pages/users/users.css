@@ -1,0 +1,145 @@
+.card{
+    width: 26rem;
+height: 31rem;
+background-color: white;
+box-shadow: 0 2px 9px 0 rgb(0 0 0 / 10%);
+border-radius: 15px;
+
+}
+.dots{
+    float: right;
+    font-size: 1.5rem;
+    color: var(--icon-color);
+    cursor: pointer;   
+    padding: 2rem 2rem 1rem 2rem;
+}
+
+.circle-user{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    background-color: #EDF0FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem auto 2rem auto ;
+}
+.contour-circle{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.icon-user{
+    color: #4A69FF;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.all-users{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5rem 2rem;
+    margin-top: 4rem;
+}
+
+
+.details{
+    text-align-last: center;
+    line-height: 25px;
+}
+
+.card-bottom{
+    border-top: 1px solid rgb(0 0 0 / 10%);
+    padding: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.update-user{
+    color: var(--icon-color);
+    font-size: 1.6rem;
+   cursor: pointer;
+    font-weight: 600;
+}
+
+.detail-user{
+    font-size: 1.3rem;
+    /* padding-bottom: 1rem; */
+    font-weight: 500;
+    color: #504f4f;
+}
+
+
+.detail-user-role{
+    font-size: 1.3rem;
+    /* padding-bottom: 1rem; */
+    font-weight: 600;
+    color: #54B5FF; 
+}
+
+.countUsers{
+    color: #494949;
+    font-size: 2rem;
+    font-weight:600;
+    margin: 2rem 0;
+}
+.all{
+    color: #494949;
+    font-size: 1.7rem;
+    font-weight:600;
+    margin: 2rem 0;
+}
+.active-tabs{
+    margin-top: 1rem;
+    background-color: var(--icon-color);
+    width: 5rem;
+    height: 4px;
+    border-radius: 20px;
+}
+.line{
+  background-color: rgb(0 0 0 / 10%);
+  width: 100%;
+  height: 1px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.pseudo-search {
+    display: inline;
+    border: 2px solid #ccc;
+    border-radius: 100px;
+    padding: 0px 15px;
+    transition: background-color 0.5 ease-in-out;
+}
+    .input-search {
+      border: 0;
+      background-color: transparent;
+      width: 200px;
+  
+     
+    }
+    
+    button, i {
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+    
+    select {
+      border: none;
+    }
+
+
+
+   

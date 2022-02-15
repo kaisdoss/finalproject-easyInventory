@@ -1,0 +1,71 @@
+table {
+    /* position: absolute; */
+    /* left: 50%; */
+    /* top: 0; */
+    /* transform: translate(-50%, -50%); */
+    border-collapse: collapse;
+    width: 100%;
+    height: 90%;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+tr {
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+th{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.6rem;
+    color: #fff
+}
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.6rem;
+    color: #5f6870
+}
+
+#header {
+    background-color: #577BFA;
+    /* background-color: #16a085; */
+    color: #fff ;
+}
+
+.main-buttons{
+    display: flex;
+        justify-content: flex-end;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.001);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1), -1px -1px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 768px) {
+    table {
+        width: 90%;
+    }
+}
+
+.edit, .remove{
+    color: #b3b9bf;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 1rem
+}
+
+.table-responsive{
+    background-color: white;
+    border-radius: 5px;
+    padding: 4rem 0;
+    height: 95%;
+    width: 100%;
+    position: relative;
+}
