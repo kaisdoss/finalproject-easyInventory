@@ -17,11 +17,13 @@ import {
   DELETE_FACTURE_SUCCESS,
   DELETE_PRODUCT_FAILED,
   DELETE_PRODUCT_SUCCESS,
+
   POST_INVOICE_SUCCESS,
   POST_INVOICE_FAILED,
   INCREMENT,
   DECREMENT,
   RESET,
+  UPDATE_COUNT
 } from '../action/types';
 
 const initState = {
@@ -100,6 +102,15 @@ const achatReducer = (state = initState, action) => {
           return el;
         }),
       };
+      case UPDATE_FACTURE_SUCCESS:
+        return {
+          ...state,
+          errors: null,
+          facture: state.facture.map((el) => {
+            if (el._id === action.payload._id) return action.payload;
+            return el;
+          }),
+        };
     // case GET_FACTURE_BY_ID_FAILED:
     case UPDATE_FACTURE_FAILED:
     case GET_PRODUCT_FAILED:

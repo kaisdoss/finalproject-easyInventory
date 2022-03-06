@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getProduct } from '../../action/facturesAndProductsAction';
 import { postInvoice } from '../../action/facturesAndProductsAction';
+import {  updateTotalCount } from '../../action/facturesAndProductsAction';
 import SalesProducts from './SalesProducts';
 import SingleInvoice from './SingleInvoice';
 import './styles.css';
@@ -20,8 +21,9 @@ function SalesPage({ history }) {
   };
 
   const addProductToList = (product) => {
+    // debugger
     // console.log('salesList: ', product);
-    setSalesList([
+    setSalesList([ 
       ...salesList.filter((el) => el._id !== product._id),
       product,
     ]);

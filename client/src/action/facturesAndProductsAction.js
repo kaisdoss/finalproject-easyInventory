@@ -18,6 +18,7 @@ import {
   DELETE_FACTURE_SUCCESS,
   POST_INVOICE_SUCCESS,
   POST_INVOICE_FAILED,
+  UPDATE_COUNT,
   // GET_FACTURE_BY_ID_FAILED,
   // GET_FACTURE_BY_ID_SUCCESS,
   INCREMENT,
@@ -221,3 +222,8 @@ export const resetCount = (id) => ({
   type: RESET,
   payload: id,
 });
+
+export const updateTotalCount = (id) => ({
+  type: UPDATE_COUNT,
+  payload: id
+})

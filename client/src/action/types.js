@@ -44,3 +44,6 @@ export const INCREMENT = "INCREMENT";
 export const DECREMENT = "DECREMENT";
 export const RESET = "RESET";
 
+// Update Count
+
+export const UPDATE_COUNT = 'UPDATE_COUNT'
